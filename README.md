@@ -24,8 +24,7 @@ Open one more terminal and run:
 source devel/setup.bash
 rosrun intro_task listener.py
 ```
-Go to http://localhost:5050
-Open one more terminal and run:
+Go to http://localhost:5050 , open one more terminal and run:
 ```bash
 source devel/setup.bash
 rosrun intro_task talker.py
