@@ -19,13 +19,13 @@ Run the following 2 commands in 2 separate terminals:
 roscore
 roslaunch rosbridge_server rosbridge_websocket.launch
 ```
-Open one more terminals and run:
+Open one more terminal and run:
 ```bash
 source devel/setup.bash
 rosrun intro_task listener.py
 ```
 Go to http://localhost:5050
-In the other of the last 2 opened terminals, run:
+Open one more terminal and run:
 ```bash
 source devel/setup.bash
 rosrun intro_task talker.py
